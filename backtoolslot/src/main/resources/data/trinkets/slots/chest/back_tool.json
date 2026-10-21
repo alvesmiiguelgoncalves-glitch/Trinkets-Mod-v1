@@ -1,0 +1,8 @@
+{
+  "icon": "backtoolslot:item/empty_back_tool_slot",
+  "order": -400,
+  "amount": 1,
+  "drop_rule": "default",
+  "validator_predicates": ["backtoolslot:tool"],
+  "quick_move_predicates": ["backtoolslot:tool"]
+}

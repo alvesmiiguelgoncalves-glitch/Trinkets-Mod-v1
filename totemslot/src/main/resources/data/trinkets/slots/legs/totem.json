@@ -1,0 +1,8 @@
+{
+  "icon": "totemslot:item/empty_totem_slot",
+  "order": 100,
+  "amount": 1,
+  "drop_rule": "default",
+  "validator_predicates": ["totemslot:totem"],
+  "quick_move_predicates": ["totemslot:totem"]
+}

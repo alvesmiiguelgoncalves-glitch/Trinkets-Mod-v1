@@ -1,0 +1,4 @@
+plugins {
+	// A versao do Loom e definida aqui uma vez; cada mod so aplica o plugin.
+	id 'fabric-loom' version '1.17-SNAPSHOT' apply false
+}

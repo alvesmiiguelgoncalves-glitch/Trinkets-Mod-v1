@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "totemslot",
+  "version": "${version}",
+  "name": "Totem Slot",
+  "description": "A Trinkets slot on your legs for a Totem of Undying: it hangs from your belt and saves you from death like the real thing.",
+  "authors": [ "Totem Slot contributors" ],
+  "contact": {},
+  "license": "GPL-3.0-only",
+  "environment": "*",
+  "entrypoints": {
+    "main": [ "net.totemslot.TotemSlotMain" ],
+    "client": [ "net.totemslot.client.TotemSlotClient" ]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21.1",
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "trinkets": ">=${trinkets_version}"
+  }
+}

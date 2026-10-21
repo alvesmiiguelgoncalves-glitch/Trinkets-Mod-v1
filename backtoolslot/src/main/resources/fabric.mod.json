@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "backtoolslot",
+  "version": "${version}",
+  "name": "Back Tool Slot",
+  "description": "A Trinkets slot that carries a tool (pickaxe, axe, shovel, hoe, sword...) on your back, with positions that adapt to chestplates, elytra and the Backpacked backpack.",
+  "authors": [ "Back Tool Slot contributors" ],
+  "contact": {},
+  "license": "GPL-3.0-only",
+  "environment": "*",
+  "entrypoints": {
+    "main": [ "net.backtoolslot.BackToolSlotMain" ],
+    "client": [ "net.backtoolslot.client.BackToolSlotClient" ]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21.1",
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "trinkets": ">=${trinkets_version}"
+  },
+  "suggests": {
+    "backpacked": "*"
+  }
+}

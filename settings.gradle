@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'trinkets-mods'
+
+// Cada pasta abaixo e um mod independente, com o proprio jar.
+include 'backshield'
+include 'totemslot'
+include 'backtoolslot'
